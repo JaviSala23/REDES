@@ -1,7 +1,6 @@
 # Capítulo 1: Introducción a las Redes Informáticas
 
-> 📘 **Carrera:** Técnico en Redes Informáticas  
-> 🏫 **Institución:** Instituto Tecnológico Argentino  
+
 > 📅 **Versión del documento base:** 1.20 – Fecha: 2/3/05  
 
 ---
@@ -134,12 +133,3 @@ Los **Network Operating Systems** administran y comparten los recursos de la red
 - **NTFS**: Sistema de archivos de alta eficiencia de Windows.
 
 ---
-
-## 🔁 Próximos pasos
-
-¡Este es solo el comienzo! En los siguientes capítulos abordaremos topologías, protocolos y configuraciones reales de redes.
-
----
-
-> ✍️ _Material basado en el apunte original del Instituto Tecnológico Argentino (Clase 1), enriquecido y adaptado para su estudio autónomo en GitHub._
-
