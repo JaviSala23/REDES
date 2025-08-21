@@ -122,4 +122,26 @@ Desventajas:
 
    - Puede ser costoso de operar
 
+### Topología en Bus
+
+También llamada topología de red troncal, bus o línea, guía los dispositivos a lo largo de un solo cable que se extiende desde un extremo de la red hasta el otro. Los datos fluirán a lo largo del cable a medida que viaja a su destino.
+
+![Topología en estrella](img/bus.png)
+
+Ventajas:
+
+   - Económico para redes más pequeñas
+
+   - Diseño simple; todos los dispositivos conectados a través de un cable
+
+   - Se pueden agregar más nodos alargando la línea
+
+Desventajas:
+
+   - La red es vulnerable a fallas de cables.
+
+   - Cada nodo agregado disminuye la velocidad de transmisión
+
+   - Los datos solo se pueden enviar en una dirección a la vez.
+
 
