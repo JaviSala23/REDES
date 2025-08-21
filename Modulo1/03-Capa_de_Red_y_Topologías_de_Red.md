@@ -101,6 +101,9 @@ Un administrador de red tiene varias opciones a la hora de elegir qué tipo de t
 
 Es el tipo de configuración más común. La red está organizada de modo que los nodos estén conectados a  un dispositivo central (un hub),  que actúa como servidor. El hub gestiona la transmisión de datos a través de la red. Es decir, cualquier dato enviado a través de la red viaja a través del dispositivo central antes de terminar en su destino
 
+![Topología en estrella](img/estrella.png)
+
+
 Ventajas:
 
    - Gestión conveniente desde una ubicación central
@@ -119,5 +122,4 @@ Desventajas:
 
    - Puede ser costoso de operar
 
-![Topología en estrella](img/estrella.png)
 
