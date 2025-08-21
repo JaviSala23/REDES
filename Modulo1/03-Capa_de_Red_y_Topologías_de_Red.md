@@ -192,7 +192,7 @@ Desventajas:
 
 Los nodos están interconectados. Los modos full-mesh  conectan todos los dispositivos en la red directamente. En una topología de malla parcial, la mayoría de los dispositivos se conectan directamente. Esto proporciona múltiples rutas para la entrega de datos. Los datos se envían a la distancia más corta disponible para la transmisión.
 
-![Topología en estrella](img/mesh.png)
+![Topología en estrella](img/mesh.jpg)
 
 Ventajas:
 
