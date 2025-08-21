@@ -52,7 +52,7 @@ El ICMP es utilizado por herramientas como ping y traceroute para probar la cone
 En redes, un protocolo es un conjunto de reglas y convenciones que permiten la comunicación entre dispositivos. Estos protocolos establecen cómo se formatean, transmiten y reciben los datos, asegurando que los dispositivos puedan entenderse entre sí, independientemente de sus sistemas operativos o arquitecturas internas. En esencia, es un lenguaje común para la comunicación en red
 
 
-Estandarización de protocolos
+## Estandarización de protocolos
 
 La estandarización de un protocolo de red es un proceso importante para garantizar que diferentes dispositivos de red puedan comunicarse entre sí de manera efectiva. Esta es necesaria para evitar conflictos y asegurar la interoperabilidad entre diferentes dispositivos de red. El proceso de estandarización de un protocolo de red generalmente comienza con una organización de estándares reconocida, como el Instituto de Ingenieros Eléctricos y Electrónicos (IEEE) o la Organización Internacional de Normalización (ISO). Estas organizaciones establecen comités y grupos de trabajo para desarrollar y revisar los estándares de red existentes o crear nuevos estándares.
 
