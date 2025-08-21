@@ -145,3 +145,96 @@ Desventajas:
    - Los datos solo se pueden enviar en una dirección a la vez.
 
 
+### Topología en Anillo
+
+Los nodos se configuran en un patrón circular. Los datos viajan a través de cada dispositivo a medida que viajan a través del anillo. En una red grande, es posible que se necesiten repetidores para evitar la pérdida de paquetes durante la transmisión. Las topologías de anillo se pueden configurar como anillo único (half-dúplex) o anillo doble (full-dúplex) para permitir que el tráfico fluya en ambas direcciones simultáneamente.
+
+![Topología en estrella](img/anillo.png)
+
+Ventajas:
+
+   - Costo beneficio
+
+   - Barato de instalar
+
+   - Problemas de rendimiento fáciles de identificar
+
+Desventajas:
+
+   - Si un nudo cae, puede caer varios nudos con él.
+
+   - Todos los dispositivos comparten ancho de banda, lo que puede limitar el rendimiento de trasferencias. 
+
+   - Agregar o eliminar nodos significa tiempo de inactividad para toda la red
+
+### Topología en Árbol
+
+Un nodo central conecta los hub secundarios. Estos hubs tienen una relación de padres-hijos con los dispositivos. O eixo central é como o tronco da árvore.El eje central es como el tronco del árbol. Donde las ramas se conectan son los concentradores secundarios o los nodos de control y luego los dispositivos conectados se conectan a los branches.
+
+![Topología en estrella](img/arbol.png)
+
+Ventajas:
+
+   - Extremadamente flexible y escalable
+
+   - Facilidad para identificar errores, ya que cada branch de la red puede diagnosticarse individualmente.
+
+Desventajas:
+
+   - Si falla un hub central, los nodos se desconectarán (aunque las ramas pueden seguir funcionando de forma independiente)
+
+   - La estructura puede ser difícil de gestionar de forma eficaz
+
+   - Utiliza mucho más cableado que otros métodos
+
+
+### Topología de Malla (Mesh)
+
+Los nodos están interconectados. Los modos full-mesh  conectan todos los dispositivos en la red directamente. En una topología de malla parcial, la mayoría de los dispositivos se conectan directamente. Esto proporciona múltiples rutas para la entrega de datos. Los datos se envían a la distancia más corta disponible para la transmisión.
+
+![Topología en estrella](img/mesh.png)
+
+Ventajas:
+
+   - confiable y estable
+
+   - Ningún fallo de un solo nodo desconecta la red
+
+Desventajas:
+
+   - Grado complejo de interconectividad entre nodos.
+
+   - Mano de obra intensiva para instalar
+
+   - Utiliza mucho cableado para conectar todos los dispositivos.
+
+
+### Topología Híbrida
+
+Utiliza varias estructuras de topología. Esto es más común en organizaciones grandes donde cada departamento puede tener un tipo de topología, como estrella o línea, con el hub del departamento conectando a um hub central.
+
+![Topología en estrella](img/hibrida.png)
+
+Ventajas:
+
+   - Flexibilidad
+
+   - Puede personalizarse según las necesidades del cliente.
+
+Desventajas:
+
+   - La complejidad aumenta
+
+   - Se requiere experiencia en múltiples topologías
+
+   - Puede ser más difícil determinar los problemas de rendimiento.
+
+## ¿Qué topología es mejor para su red?
+
+No existe una respuesta correcta o incorrecta a la pregunta de qué topología es mejor para su red. En muchos casos, todo se reduce al nivel de comodidad y la cantidad de redundancia que necesita.
+
+El costo también juega un papel. Cuantos más cables necesite y más compleja sea la topología, más costosa y lenta será su instalación y administración.
+
+Sea cual sea su elección, es importante que planifique con anticipación. A medida que las necesidades comerciales cambian y evolucionan, es probable que deba agregar, eliminar o cambiar dispositivos. Dependiendo de su elección, puede ser más fácil (o más difícil) dimensionar. Una de las razones por las que muchas organizaciones eligen topologías en estrella es porque es fácil realizar cambios sin interrupciones significativas.
+
+
