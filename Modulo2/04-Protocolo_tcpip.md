@@ -115,3 +115,4 @@ Abrir consola (CMD/PowerShell) y probar:
 1. Explicar con sus palabras la diferencia entre TCP y UDP.  
 2. Buscar su propia dirección IP pública (ejemplo: https://whatismyipaddress.com).  
 3. Hacer un `ping` a un sitio web y explicar qué significa el resultado.  
+
