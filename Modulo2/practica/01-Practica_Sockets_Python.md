@@ -45,10 +45,10 @@ El flujo básico de uso es el siguiente:
 Este servidor acepta una conexión y responde con un mensaje de bienvenida.
 
 ```python
-import socket
+import sockets
 
 # 1. Crear el socket TCP
-servidor = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+servidor = sockets.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # 2. Asociarlo a una IP y puerto
 servidor.bind(("localhost", 5000))
